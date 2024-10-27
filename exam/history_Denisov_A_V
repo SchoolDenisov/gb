@@ -1,0 +1,38 @@
+
+  504  cd /home/alexander/
+  505  cd /home/alexander/exam/
+  506  git status
+  507  git inint
+  508  git init
+  509  git status
+  510  git clone https://github.com/SchoolDenisov/gb.git
+  511  cd /home/alexander/exam/gb/java
+  512  cd /home/alexander/exam/gb/
+  513  git status
+  514  mkdir exam
+  515  cd /home/alexander/exam/gb/exam
+  516  echo -e "собака\nкошка\nхомяк" > pets.txt
+  517  git status
+  518  git add .
+  519  git status
+  520  git commit -m "create"
+  521  git push origin main
+  522  echo -e "лошадь\nверблюд\nосел" > PackAnimals.txt
+  523  git add .
+  524  git commit -m "continue"
+  525  git push origin main
+  526  cat Pets.txt PackAnimals.txt > HumanFriends.txt
+  527  git add .
+  528  git commit -m "continue cat"
+  529  git push origin main
+  530  mkdir FriendsDirectory
+  531  mv HumanFriends.txt FriendsDirectory/
+  532  git add .
+  533  git commit -m "move to new folder"
+  534  git push origin main
+  535  sudo apt update
+  536  sudo apt install mysql-server
+  537  git status
+  538  sudo dpkg -i mypack.deb
+  539  sudo dpkkg -r mypack
+  540  history > history_Denisov_A_V
